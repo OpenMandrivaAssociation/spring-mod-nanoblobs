@@ -1,13 +1,9 @@
-
-%define name	spring-mod-nanoblobs
-%define version	0.64
-%define oversion 064
-%define rel	1
+%define oversion 065
 
 Summary:	Nanoblobs mod for Spring
-Name:		%{name}
-Version:	%{version}
-Release:	%mkrel %{rel}
+Name:		spring-mod-nanoblobs
+Version:	0.65
+Release:	%{mkrel 1}
 Group:		Games/Strategy
 URL:		http://spring.clan-sy.com/wiki/Nanoblobs
 # zip file:
@@ -19,7 +15,9 @@ Conflicts:	spring-data < 0.75
 BuildArch:	noarch
 
 %description
-Nanoblobs mod for Spring.
+Nanoblobs game for the Spring game engine. See
+http://spring.clan-sy.com/wiki/Nanoblobs for a description of Nanoblobs
+and some tips on how best to play it.
 
 %prep
 # We extract the archive to put the license file in docdir.
@@ -35,5 +33,6 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
-%doc *LICENSE.txt License.txt
+%doc License.txt
 %{_gamesdatadir}/spring/mods/NanoBlobs%{oversion}.sdz
+
