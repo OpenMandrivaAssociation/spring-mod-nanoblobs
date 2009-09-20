@@ -3,7 +3,7 @@
 Summary:	Nanoblobs mod for Spring
 Name:		spring-mod-nanoblobs
 Version:	0.65
-Release:	%{mkrel 1}
+Release:	%{mkrel 2}
 Group:		Games/Strategy
 URL:		http://spring.clan-sy.com/wiki/Nanoblobs
 # zip file:
