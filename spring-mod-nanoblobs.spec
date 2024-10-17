@@ -5,7 +5,7 @@ Name:		spring-mod-nanoblobs
 Version:	0.65
 Release:	%{mkrel 2}
 Group:		Games/Strategy
-URL:		http://spring.clan-sy.com/wiki/Nanoblobs
+URL:		https://spring.clan-sy.com/wiki/Nanoblobs
 # zip file:
 Source:		http://www.wolfegames.com/TA_Section/PreRelease/NanoBlobs%{oversion}.sdz
 License:	GPL+
